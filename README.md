@@ -53,7 +53,7 @@ El sistema utiliza una arquitectura basada en servicios:
 ### Backend
 - Java JDK 11 o superior  
 - Maven  
-- IntelliJ IDEA (opcional)  
+- IntelliJ IDEA
 
 ### Frontend
 - Node.js  
@@ -67,5 +67,95 @@ El sistema utiliza una arquitectura basada en servicios:
 
 ### Clonar el repositorio
 ```bash
+git clone https://github.com/NicolasAlvarez25/Gestion-gym.git
+cd Gestion-gym
+
+Instalación y Configuración 🛠️
+Clonar el repositorio
+bash
+Copiar código
 git clone https://github.com/tu-usuario/nombre-del-repositorio.git
 cd nombre-del-repositorio
+
+Configurar el Backend
+Configura el archivo application.properties con los datos de conexión a MySQL:
+properties
+Copiar código
+spring.datasource.url=jdbc:mysql://localhost:3306/nombre_base_datos
+spring.datasource.username=tu_usuario
+spring.datasource.password=tu_contraseña
+spring.jpa.hibernate.ddl-auto=update
+
+
+Ejecuta la aplicación desde IntelliJ IDEA o mediante Maven:
+bash
+Copiar código
+mvn spring-boot:run
+
+
+Configurar el Frontend
+Instala las dependencias:
+bash
+Copiar código
+npm install
+
+
+Ejecuta la aplicación en modo desarrollo:
+bash
+Copiar código
+ionic serve
+
+
+
+Uso del Sistema 🖥️
+Rutas del Backend (API REST)
+Cliente: /api/clientes
+GET, POST, PUT, DELETE
+Membresía: /api/membresias
+GET, POST, PUT, DELETE
+Factura: /api/facturas
+GET, POST
+Plan: /api/planes
+GET, POST, PUT
+Notificación: /api/notificaciones
+GET, POST
+Navegación en el Frontend
+Página de inicio: Vista general del sistema.
+Gestión de clientes: Agregar, editar o eliminar clientes.
+Membresías: Consultar y asignar membresías.
+Facturación: Emitir y consultar facturas.
+Notificaciones: Enviar recordatorios o alertas.
+
+Base de Datos 📂
+Diagrama ER:
+Configuración inicial
+Inicia XAMPP y activa MySQL.
+Crea la base de datos con el siguiente comando en phpMyAdmin:
+sql
+Copiar código
+CREATE DATABASE nombre_base_datos;
+
+
+Importa el archivo schema.sql para crear las tablas.
+
+Mejoras Futuras 🚀
+Integración con pasarelas de pago para membresías.
+Notificaciones por correo electrónico o SMS.
+Generación de reportes estadísticos.
+
+Contribuciones 🤝
+Si deseas contribuir, sigue estos pasos:
+Haz un fork del proyecto.
+Crea una rama nueva (git checkout -b feature/nueva-funcionalidad).
+Realiza tus cambios y súbelos (git commit -m "Descripción de los cambios").
+Envía un pull request.
+
+Autor ✍️
+Nombre del Autor: [Tu Nombre]
+Contacto: [Tu Email]
+
+Licencia 📜
+Este proyecto está bajo la licencia MIT. Consulta el archivo LICENSE para más detalles.
+
+Este archivo README.md está listo para ser usado en tu repositorio de Git. Puedes adaptarlo según los detalles específicos de tu proyecto y agregar elementos como capturas de pantalla, enlaces externos o ejemplos de uso.
+
