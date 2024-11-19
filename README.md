@@ -69,8 +69,9 @@ El sistema utiliza una arquitectura basada en servicios:
 ```bash
 git clone https://github.com/NicolasAlvarez25/Gestion-gym.git
 cd Gestion-gym
+```
 
-Instalación y Configuración 🛠️
+# Instalación y Configuración 🛠️
 Clonar el repositorio
 bash
 Copiar código
