@@ -1,5 +1,5 @@
 # Gestion-gym
-# Gestión de Gimnasios 🏋️‍♂️
+# Gestión de Gimnasio 🏋️‍♂️
 
 ## Descripción del Proyecto
 Este proyecto es un sistema de gestión de gimnasios diseñado para facilitar el manejo de clientes, membresías, planes, facturación y notificaciones. Combina una arquitectura backend en **Java Spring Boot** con un frontend construido en **Ionic** y **Vue.js**. La base de datos está configurada en **MySQL** mediante **XAMPP**.
